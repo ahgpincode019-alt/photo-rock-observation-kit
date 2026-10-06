@@ -1,0 +1,21 @@
+field,group,allowed_values,notes
+record_id,photo_setup,text,Use one unique record per specimen
+date,photo_setup,ISO 8601 date,Date the observation was recorded
+light_source,photo_setup,natural|artificial|unknown,Light affects apparent colour and lustre
+background,photo_setup,plain|mixed|unknown,A plain background makes edges easier to inspect
+scale_included,photo_setup,yes|no,Record whether size evidence is visible
+whole_specimen_visible,photo_setup,yes|no,Record whether the complete specimen is shown
+find_setting,find_context,riverbed|beach|outcrop|garden|loose gravel|unknown|other,Do not treat setting alone as identification
+surface_colour_differs_from_fresh_break,visible_evidence,yes|no|unknown,Weathering can change surface colour
+lustre_or_reflection,visible_evidence,dull|glassy|metallic-looking|sparkly|mixed|unknown,Describe appearance without naming a mineral
+visible_grain_size,visible_evidence,none seen|fine|medium|coarse|mixed|unknown,Only record grains visible in the image
+parallel_features,visible_evidence,none|layers|bands|stripes|uncertain,Do not treat every stripe as proof of a rock type
+holes_or_vesicles,visible_evidence,yes|no|uncertain,Describe visible cavities without assigning cause
+veins_or_filled_cracks,visible_evidence,yes|no|uncertain,A pale vein is not automatically quartz
+break_pattern,visible_evidence,flat repeated surfaces|irregular surfaces|mixed|uncertain,Photo evidence alone may be inadequate
+shape,visible_evidence,angular|rounded|mixed|uncertain,Roundness does not establish rock type or travel distance
+magnet_response,physical_observation,text,Not a photo-only observation
+streak_test,physical_observation,text,Record test surface and result
+hardness_test,physical_observation,text,Record method and comparison material
+tentative_category,interpretation,igneous|sedimentary|metamorphic|mineral|human-made material|uncertain,Keep alternatives open
+next_observation_or_test,interpretation,text,State the most useful next check
